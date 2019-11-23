@@ -1,0 +1,68 @@
+.section-example {
+    margin-top: 90px;
+    .example-title {
+        @include title;
+    }
+    .example-wrapper {
+        margin-top: 66px;
+        padding: 76px 0;
+        position: absolute;
+        background-color: #f2f2f2;
+        width: 100%;
+        left: 0;
+    }
+    .example-descr {
+        @include descr;
+        max-width: 430px;
+    }
+    .example-rezult {
+        margin-top: 71px;
+        display: flex;
+    }
+    .weight,
+    .time {
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        max-width: 5.4em;
+        width: 100%;
+        border: 1px solid #cdcdcd;
+        border-radius: 3px;
+        padding: .6em 1em;
+        z-index: 0;
+        margin-right: 42px;
+            .descr:last-child {
+                width: 100%;
+                bottom: -6px;
+                left: 50%;
+                transform: translateX(-50%);
+                position: absolute;
+                @include descr;
+                font-size: 13px;
+                line-height: 14px;
+                z-index: 3;
+                span {
+                    background-color: #f2f2f2;
+                    padding: 0 5px;
+                }
+            }
+    }
+
+    .total {
+        display: flex;
+        font-size: 20px;
+        margin-top: 55px;
+        text-transform: uppercase;  
+        .cost-name {
+            margin-right: 65px;
+        }
+    }
+    .container {
+        position: relative;
+    }
+    .slider {
+       position: absolute;
+       top: -248px;
+       right: 0;
+    } 
+}

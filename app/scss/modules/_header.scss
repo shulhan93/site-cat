@@ -1,0 +1,22 @@
+.header {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-menu {
+        display: flex;
+        &__link {
+            margin-right: 35px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                font-size: 20px;
+                color: #fff;
+                line-height: 24.86px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+

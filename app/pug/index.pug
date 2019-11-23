@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Cat Energy
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:400,500&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+		link(rel="stylesheet", href="css/normalize.css")
+		link(rel="stylesheet", href="css/cocoen.min.css")
+		link(rel="stylesheet", href="css/main.css")
+	body
+		.container
+			header.header
+				.header-logo
+					a(href="#")
+						img(src="../img/logo-desktop.svg", alt="логотип")
+				nav.header-nav
+					ul.header-menu
+						li.header-menu__link
+							a(href="#") Главная
+						li.header-menu__link
+							a(href="#") Каталог продукции
+						li.header-menu__link
+							a(href="#") Подбор программы
+			section.hero
+				.hero-image
+					img(src="../img/hero-img.png", alt="")
+				h1.hero-title. 
+								Функциональное<br> питание для котов
+				.hero-subtitle. 
+								Занялся собой? Займись котом!
+				button.button Подобрать программу
+		
+			section.section-catalog
+				.catalog-item
+					.catalog-item__img
+						img(src="../img/cat-pro.svg", alt="cat-slim")
+					.catalog-item__title Похудение
+					.catalog-item__descr.
+						Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
+					.catalog-item__link 
+						a(href="#") Каталог Slim
+
+				.catalog-item
+					.catalog-item__img
+						img(src="../img/cat-slim.svg", alt="cat-slim")
+					.catalog-item__title Похудение
+					.catalog-item__descr.
+						Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
+					.catalog-item__link 
+						a(href="#") Каталог Slim
+
+			section.section-work
+				h2.section-work__title Как это работает
+				.section-work__inner
+					.work-item
+						.work-item__img
+							img(src="img/work-1.svg", alt="work icon")
+						.work-item__descr.
+							Функциональное питание содержит только полезные питательные вещества.
+						span.work-item__numb 1
+
+					.work-item
+						.work-item__img
+							img(src="img/work-2.svg", alt="work icon")
+						.work-item__descr.
+							Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+						span.work-item__numb 2
+
+					.work-item
+						.work-item__img
+							img(src="img/work-3.svg", alt="work icon")
+						.work-item__descr.
+							Замените один-два приема обычной еды на наше фунцкциональное питание.
+						span.work-item__numb 3
+
+					.work-item
+						.work-item__img
+							img(src="img/work-4.svg", alt="work icon")
+						.work-item__descr.
+							Замените один-два приема обычной еды на наше фунцкциональное питание.
+						span.work-item__numb 4
+
+			section.section-example
+				.example-title Живой пример
+				.example-wrapper
+						.container
+							.example-descr.
+								Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. 
+							.example-rezult
+								.weight
+									span 5 кг
+									.descr
+										span снижение веса
+								.time
+									span 60 дней
+									.descr
+										span затрачено времени
+							.total 
+								.cost-name Затраты на питание: 
+								.cost 15 000 руб.
+							.slider
+								.cocoen
+									.cocoen-img
+										img(src="img/after.png", alt="")
+									.cocoen-img
+										img(src="img/before.png", alt="")
+									.cocoen-dra
+						
+
+
+	script(src="js/jquery-3.4.1.min.js")
+	script(src="js/cocoen.js")
+	script(src="js/cocoen-jquery.min.js")
+	script(src="js/main.js")
+		
+				
+

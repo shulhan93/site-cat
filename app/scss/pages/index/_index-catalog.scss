@@ -1,0 +1,51 @@
+.section-catalog {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    .catalog-item {
+        &:first-child {
+            margin-right: 80px;
+        }
+        position: relative;
+        max-width: 570px;
+        background-color: #f2f2f2;
+        padding: 47px 52px 62px;
+        &__img {
+            position: absolute;
+            top: 41px;
+            left: 52px;
+        }
+        &__title {
+            margin-top: 25px;
+            margin-left: 165px;
+            color: #111111;
+            font-size: 36px;
+            line-height: 37.02px;
+            text-transform: uppercase;
+        }
+        &__descr {
+            margin-top: 75px;
+            @include descr
+        }
+        &__link {
+            position: relative;
+            margin-top: 36px;
+            color: #111111;
+            font-size: 20px;
+            line-height: 20px;
+            text-transform: uppercase;
+            a {
+                padding-right: 20px;
+                &:after {
+                content: url('../img/right-arrow.svg');
+                display: block;
+                left: 130px;
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+            }
+            }
+       
+        }
+    }
+}

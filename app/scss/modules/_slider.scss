@@ -1,0 +1,13 @@
+.cocoen {
+    height: 510px;
+    width: 610px;
+    &-dra {
+        background: #dcdcdc;
+        position: absolute;
+        height: 6px;
+        width: 100%;
+        bottom: -50px;
+     /*    left: 50%;
+        transform: translateX(-50%); */
+    }
+}
