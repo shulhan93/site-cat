@@ -1,1 +1,1 @@
-new Cocoen(document.querySelector('.cocoen')); 
+$(".twenty").twentytwenty();
